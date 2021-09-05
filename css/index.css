@@ -1,0 +1,97 @@
+body {
+  font-size: 15px;
+  padding: 5em .8em;
+}
+
+body .contenedor {
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+}
+
+body .contenedor section {
+  padding: 1.3em 3.5em;
+}
+
+body .contenedor section .img-referencia {
+  margin-top: 2em;
+}
+
+body .contenedor section .img-referencia img {
+  width: 5em;
+}
+
+body .contenedor section h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+body .contenedor section p {
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 1.8em;
+}
+
+body .contenedor section button {
+  padding: 1em 2.4em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border-radius: 50px;
+  font-size: 1em;
+  border: 2px solid white;
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body .contenedor section button:hover {
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+body .contenedor section .btn1 {
+  color: #e28525;
+}
+
+body .contenedor section .btn1:hover {
+  background-color: #e28525;
+}
+
+body .contenedor section .btn2 {
+  color: #016972;
+}
+
+body .contenedor section .btn2:hover {
+  background-color: #016972;
+}
+
+body .contenedor section .btn3 {
+  color: #00403f;
+}
+
+body .contenedor section .btn3:hover {
+  background-color: #00403f;
+}
+
+body .contenedor .sec1 {
+  background-color: #e28525;
+  border-radius: 9px 9px 0px 0px;
+}
+
+body .contenedor .sec2 {
+  background-color: #016972;
+}
+
+body .contenedor .sec3 {
+  background-color: #00403f;
+  border-radius: 0px 0px 9px 9px;
+}
+
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=index.css.map */

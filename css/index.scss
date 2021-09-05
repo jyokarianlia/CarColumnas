@@ -1,0 +1,76 @@
+//font-family: 'Big Shoulders Display', cursive;
+
+//font-family: 'Lexend Deca', sans-serif;
+
+body {
+    font-size: 15px;
+    padding: 5em .8em;
+    .contenedor {
+        font-family: 'Big Shoulders Display', cursive;
+        color: white;
+        section {
+            padding: 1.3em 3.5em;
+            .img-referencia {
+                margin-top: 2em;
+                img {
+                    width: 5em;
+                }
+            }
+            h2 {
+                font-size: 3em;
+                text-transform: uppercase;
+            }
+            p {
+                font-family: 'Lexend Deca', sans-serif;
+                line-height: 1.8em;
+            }
+            button {
+                padding: 1em 2.4em;
+                margin-top: 1em;
+                margin-bottom: 2em;
+                border-radius: 50px;
+                font-size: 1em;
+                border: 2px solid white;
+                background-color: white;
+                font-family: 'Lexend Deca', sans-serif;
+                &:hover {
+                    cursor: pointer;
+                    color: #fff;
+                    transition: all ease .5s;
+                }
+            }
+            .btn1 {
+                color: #e28525;
+                &:hover {
+                    background-color: #e28525;
+                }
+            }
+            .btn2 {
+                color: #016972;
+                &:hover {
+                    background-color: #016972;
+                }
+            }
+            .btn3 {
+                color: #00403f;
+                &:hover {
+                    background-color: #00403f;
+                }
+            }
+        }
+        .sec1 {
+            background-color: #e28525;
+            border-radius: 9px 9px 0px 0px;
+        }
+        .sec2 {
+            background-color: #016972;
+        }
+        .sec3 {
+            background-color: #00403f;
+            border-radius: 0px 0px 9px 9px;
+        }
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
