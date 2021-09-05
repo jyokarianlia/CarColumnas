@@ -4,12 +4,31 @@
 
 body {
     font-size: 15px;
-    padding: 5em .8em;
+    padding: 0;
+    margin: 0;
     .contenedor {
         font-family: 'Big Shoulders Display', cursive;
         color: white;
+        padding: 5em .8em;
+        @media (min-width: 500px) {
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            section {
+                max-height: 70vh;
+            }
+            .sec1 {
+                border-radius: 9px 0px 0px 9px !important;
+            }
+            .sec3 {
+                border-radius: 0px 9px 9px 0px !important;
+            }
+        }
         section {
             padding: 1.3em 3.5em;
+            width: 15vw;
             .img-referencia {
                 margin-top: 2em;
                 img {

@@ -1,15 +1,43 @@
 body {
   font-size: 15px;
-  padding: 5em .8em;
+  padding: 0;
+  margin: 0;
 }
 
 body .contenedor {
   font-family: 'Big Shoulders Display', cursive;
   color: white;
+  padding: 5em .8em;
+}
+
+@media (min-width: 500px) {
+  body .contenedor {
+    padding: 0;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .contenedor section {
+    max-height: 70vh;
+  }
+  body .contenedor .sec1 {
+    border-radius: 9px 0px 0px 9px !important;
+  }
+  body .contenedor .sec3 {
+    border-radius: 0px 9px 9px 0px !important;
+  }
 }
 
 body .contenedor section {
   padding: 1.3em 3.5em;
+  width: 15vw;
 }
 
 body .contenedor section .img-referencia {
